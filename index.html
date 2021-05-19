@@ -1,94 +1,118 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
     <title>You Are Awesome!</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="wrapper">
       <div class="main">
         <div class="main__header">
           <div class="exit-botton">
+            <i class="fas fa-times fa-2x"></i>
           </div>
-          <div class="head-title text-bold">
+          <div class="header-title">
+            <span>Playlist</span>
           </div>
+          <div></div>
         </div>
         <div class="main__display">
-          <div class="album-cover--big">
-            <div class="album-cover__missing">
+          <div>
+            <div>
+              <svg
+                class="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
+                ></path>
+              </svg>
             </div>
           </div>
           <div class="album-specs">
             <div class="album-specs__title">
+              <p class="display-title">Random Love</p>
             </div>
             <div class="album-specs__artist-name">
+              <span>by Divay Kapoor</span>
             </div>
           </div>
         </div>
         <div class="main__feature">
           <div class="botton--long">
+            <i class="fas fa-play"></i>
+            <span class="play-title">Play</span>
           </div>
           <div class="botton">
+            <i class="far fa-heart"></i>
           </div>
           <div class="botton">
+            <i class="fas fa-plus"></i>
           </div>
         </div>
         <div class="main__list">
-          <div class="album-list">
-            <div class="album-cover--big">
-              <div class="album-cover__missing">
+          <div class="list">
+            <div class="cover back1" id="back1"></div>
+            <div class="specs">
+              <div class="specs__title">
+                <div>Matargasti</div>
               </div>
-            </div>
-            <div class="album-specs">
-              <div class="album-specs__title">
-              </div>
-              <div class="album-specs__artist-name">
-              </div>
-            </div>
-          </div>
-          <div class="album-list">
-            <div class="album-cover--big">
-              <div class="album-cover__missing">
-              </div>
-            </div>
-            <div class="album-specs">
-              <div class="album-specs__title">
-              </div>
-              <div class="album-specs__artist-name">
+              <div class="specs__name">
+                <div>Mohit Chauhan</div>
               </div>
             </div>
           </div>
-          <div class="album-list">
-            <div class="album-cover--big">
-              <div class="album-cover__missing">
+          <div class="list">
+            <div class="cover back2"></div>
+            <div class="specs">
+              <div class="specs__title">
+                <div>Attitude</div>
               </div>
-            </div>
-            <div class="album-specs">
-              <div class="album-specs__title">
-              </div>
-              <div class="album-specs__artist-name">
+              <div class="specs__name">
+                <div>Lewis OfMan Attuitude</div>
               </div>
             </div>
           </div>
-          <div class="album-list">
-            <div class="album-cover--big">
-              <div class="album-cover__missing">
+          <div class="list">
+            <div class="cover back3"></div>
+            <div class="specs">
+              <div class="specs__title">
+                <div>Try Everthing</div>
+              </div>
+              <div class="specs__name">
+                <div>Shakira Zootopia</div>
               </div>
             </div>
-            <div class="album-specs">
-              <div class="album-specs__title">
+          </div>
+          <div class="list">
+            <div class="cover back4"></div>
+            <div class="specs">
+              <div class="specs__title">
+                <div>Sunflower</div>
               </div>
-              <div class="album-specs__artist-name">
+              <div class="specs__name">
+                <div>Joseph Vincent Sunflower</div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </body>
+    <script
+      src="https://kit.fontawesome.com/49d27cb357.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
